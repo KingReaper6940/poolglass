@@ -1,0 +1,347 @@
+{
+  "schema": "poolglass-report/1",
+  "project": {
+    "schema": "poolglass/1",
+    "title": "Retained success study",
+    "dice": 4,
+    "faces": 8,
+    "keep": 2,
+    "order": "lowest",
+    "relation": "le",
+    "target": 4,
+    "event": "atLeast",
+    "required": 1,
+    "notes": "Generic fair-dice example: count passing dice individually after retention. No game-specific rules included."
+  },
+  "current": {
+    "target": 4,
+    "pool": {
+      "dice": 4,
+      "passingFaces": 4,
+      "total": "4096",
+      "bins": [
+        "256",
+        "1024",
+        "2816"
+      ],
+      "favor": true
+    },
+    "baseline": {
+      "dice": 2,
+      "passingFaces": 4,
+      "total": "64",
+      "bins": [
+        "16",
+        "32",
+        "16"
+      ],
+      "favor": true
+    },
+    "ways": "3840",
+    "baseWays": "48",
+    "probability": {
+      "numerator": "15",
+      "denominator": "16"
+    },
+    "baselineProbability": {
+      "numerator": "3",
+      "denominator": "4"
+    },
+    "percent": "93.75%",
+    "baselinePercent": "75%",
+    "delta": {
+      "numerator": "3",
+      "denominator": "16"
+    },
+    "deltaNumerator": "49152",
+    "deltaDenominator": "262144"
+  },
+  "rows": [
+    {
+      "count": 0,
+      "ways": "256",
+      "total": "4096",
+      "probability": {
+        "numerator": "1",
+        "denominator": "16"
+      },
+      "exact": "1/16",
+      "percent": "6.25%",
+      "atLeast": "4096",
+      "atMost": "256"
+    },
+    {
+      "count": 1,
+      "ways": "1024",
+      "total": "4096",
+      "probability": {
+        "numerator": "1",
+        "denominator": "4"
+      },
+      "exact": "1/4",
+      "percent": "25%",
+      "atLeast": "3840",
+      "atMost": "1280"
+    },
+    {
+      "count": 2,
+      "ways": "2816",
+      "total": "4096",
+      "probability": {
+        "numerator": "11",
+        "denominator": "16"
+      },
+      "exact": "11/16",
+      "percent": "68.75%",
+      "atLeast": "2816",
+      "atMost": "4096"
+    }
+  ],
+  "sweep": [
+    {
+      "target": 0,
+      "passingFaces": 0,
+      "ways": "0",
+      "total": "4096",
+      "baseWays": "0",
+      "baseTotal": "64",
+      "probability": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "baselineProbability": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "percent": "0%",
+      "baselinePercent": "0%",
+      "delta": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "deltaText": "0 pp"
+    },
+    {
+      "target": 1,
+      "passingFaces": 1,
+      "ways": "1695",
+      "total": "4096",
+      "baseWays": "15",
+      "baseTotal": "64",
+      "probability": {
+        "numerator": "1695",
+        "denominator": "4096"
+      },
+      "baselineProbability": {
+        "numerator": "15",
+        "denominator": "64"
+      },
+      "percent": "41.381836%",
+      "baselinePercent": "23.4375%",
+      "delta": {
+        "numerator": "735",
+        "denominator": "4096"
+      },
+      "deltaText": "+17.944336 pp"
+    },
+    {
+      "target": 2,
+      "passingFaces": 2,
+      "ways": "2800",
+      "total": "4096",
+      "baseWays": "28",
+      "baseTotal": "64",
+      "probability": {
+        "numerator": "175",
+        "denominator": "256"
+      },
+      "baselineProbability": {
+        "numerator": "7",
+        "denominator": "16"
+      },
+      "percent": "68.359375%",
+      "baselinePercent": "43.75%",
+      "delta": {
+        "numerator": "63",
+        "denominator": "256"
+      },
+      "deltaText": "+24.609375 pp"
+    },
+    {
+      "target": 3,
+      "passingFaces": 3,
+      "ways": "3471",
+      "total": "4096",
+      "baseWays": "39",
+      "baseTotal": "64",
+      "probability": {
+        "numerator": "3471",
+        "denominator": "4096"
+      },
+      "baselineProbability": {
+        "numerator": "39",
+        "denominator": "64"
+      },
+      "percent": "84.741211%",
+      "baselinePercent": "60.9375%",
+      "delta": {
+        "numerator": "975",
+        "denominator": "4096"
+      },
+      "deltaText": "+23.803711 pp"
+    },
+    {
+      "target": 4,
+      "passingFaces": 4,
+      "ways": "3840",
+      "total": "4096",
+      "baseWays": "48",
+      "baseTotal": "64",
+      "probability": {
+        "numerator": "15",
+        "denominator": "16"
+      },
+      "baselineProbability": {
+        "numerator": "3",
+        "denominator": "4"
+      },
+      "percent": "93.75%",
+      "baselinePercent": "75%",
+      "delta": {
+        "numerator": "3",
+        "denominator": "16"
+      },
+      "deltaText": "+18.75 pp"
+    },
+    {
+      "target": 5,
+      "passingFaces": 5,
+      "ways": "4015",
+      "total": "4096",
+      "baseWays": "55",
+      "baseTotal": "64",
+      "probability": {
+        "numerator": "4015",
+        "denominator": "4096"
+      },
+      "baselineProbability": {
+        "numerator": "55",
+        "denominator": "64"
+      },
+      "percent": "98.022461%",
+      "baselinePercent": "85.9375%",
+      "delta": {
+        "numerator": "495",
+        "denominator": "4096"
+      },
+      "deltaText": "+12.084961 pp"
+    },
+    {
+      "target": 6,
+      "passingFaces": 6,
+      "ways": "4080",
+      "total": "4096",
+      "baseWays": "60",
+      "baseTotal": "64",
+      "probability": {
+        "numerator": "255",
+        "denominator": "256"
+      },
+      "baselineProbability": {
+        "numerator": "15",
+        "denominator": "16"
+      },
+      "percent": "99.609375%",
+      "baselinePercent": "93.75%",
+      "delta": {
+        "numerator": "15",
+        "denominator": "256"
+      },
+      "deltaText": "+5.859375 pp"
+    },
+    {
+      "target": 7,
+      "passingFaces": 7,
+      "ways": "4095",
+      "total": "4096",
+      "baseWays": "63",
+      "baseTotal": "64",
+      "probability": {
+        "numerator": "4095",
+        "denominator": "4096"
+      },
+      "baselineProbability": {
+        "numerator": "63",
+        "denominator": "64"
+      },
+      "percent": "99.975586%",
+      "baselinePercent": "98.4375%",
+      "delta": {
+        "numerator": "63",
+        "denominator": "4096"
+      },
+      "deltaText": "+1.538086 pp"
+    },
+    {
+      "target": 8,
+      "passingFaces": 8,
+      "ways": "4096",
+      "total": "4096",
+      "baseWays": "64",
+      "baseTotal": "64",
+      "probability": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "baselineProbability": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "percent": "100%",
+      "baselinePercent": "100%",
+      "delta": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "deltaText": "0 pp"
+    },
+    {
+      "target": 9,
+      "passingFaces": 8,
+      "ways": "4096",
+      "total": "4096",
+      "baseWays": "64",
+      "baseTotal": "64",
+      "probability": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "baselineProbability": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "percent": "100%",
+      "baselinePercent": "100%",
+      "delta": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "deltaText": "0 pp"
+    }
+  ],
+  "mean": {
+    "numerator": "13",
+    "denominator": "8"
+  },
+  "baselineMean": {
+    "numerator": "1",
+    "denominator": "1"
+  },
+  "audit": {
+    "massVerified": true,
+    "poolOutcomes": "4096",
+    "baselineOutcomes": "64",
+    "bins": 3
+  },
+  "deltaText": "+18.75 pp"
+}

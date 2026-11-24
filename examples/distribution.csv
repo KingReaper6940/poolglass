@@ -1,0 +1,4 @@
+"Passing retained dice","Ordered outcomes","Total outcomes","Reduced probability","Rounded percent","At least outcomes","At most outcomes"
+"0","256","4096","1/16","6.25%","4096","256"
+"1","1024","4096","1/4","25%","3840","1280"
+"2","2816","4096","11/16","68.75%","2816","4096"

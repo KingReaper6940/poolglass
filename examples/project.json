@@ -1,0 +1,13 @@
+{
+  "schema": "poolglass/1",
+  "title": "Retained success study",
+  "dice": 4,
+  "faces": 8,
+  "keep": 2,
+  "order": "lowest",
+  "relation": "le",
+  "target": 4,
+  "event": "atLeast",
+  "required": 1,
+  "notes": "Generic fair-dice example: count passing dice individually after retention. No game-specific rules included."
+}

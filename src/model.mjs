@@ -17,6 +17,6 @@ export function percent(n,d){
  if(n===0n)return '0%';if(n===d)return '100%';
  const units=1000000n,q=(n*100n*units+d/2n)/d;
  if(q===0n)return '<0.000001%';if(q===100n*units)return '>99.999999%';
- return (q/units).toString()+'.'+(q%units).toString().padStart(6,'0').replace(/0+$/,'')+'%';
+ const part=(q%units).toString().padStart(6,'0').replace(/0+$/,'');return (q/units).toString()+(part?'.'+part:'')+'%';
 }
 export function page(items,n,size=20){const pages=Math.max(1,Math.ceil(items.length/size)),current=Math.max(0,Math.min(Number.isInteger(n)?n:0,pages-1));return {items:items.slice(current*size,(current+1)*size),current,pages}}
