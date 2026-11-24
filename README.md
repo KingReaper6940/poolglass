@@ -2,6 +2,8 @@
 
 Keep the dice. Count the successes.
 
+[Open Poolglass](https://poolglass-chi.vercel.app)
+
 Poolglass calculates how many **retained dice individually pass a face target**. Choose highest or lowest retention, inspect the full success-count distribution, and compare the selected event with rolling only the kept dice.
 
 - **Exact ordered-outcome counts:** BigInt arithmetic and reduced fractions throughout.
